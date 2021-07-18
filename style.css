@@ -5,6 +5,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
 #masterWrapper {
   background: linear-gradient(180deg, #f6fafd, #fff);
   min-height: 100vh;
@@ -135,11 +144,6 @@ body {
   width: 140px;
   height: 45px;
   cursor: pointer;
-  transition-duration: 0.5s;
-}
-
-.learnMoreButton:hover {
-  transform: scale(1.02);
 }
 
 #LMButton1 {
@@ -161,7 +165,7 @@ body {
   max-width: 1300px;
   height: 450px;
   border-radius: 50px;
-  margin: 130px 0px 0px 15vw;
+  margin: 130px 0px 80px 15vw;
   display: flex;
   justify-content: space-evenly;
 }
@@ -188,7 +192,118 @@ body {
   justify-content: center;
 }
 
-#header2 {
+.headerSmall {
   color: #212353;
   font-size: 30px;
+  line-height: 40px;
+}
+
+#featuresHeader {
+  margin: 40px auto;
+}
+
+#featuresMessage {
+  margin: 0px auto 85px auto;
+  width: 490px;
+  text-align: center;
+}
+
+#featuresWrapper {
+  width: 70%;
+  max-width: 1300px;
+  margin: 0px 0px 80px 15vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.featuresRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px 0px 40px 0px;
+}
+
+.featureImageWrapper {
+  width: 440px;
+  height: 297px;
+}
+
+.featureImageColumn {
+  position: absolute;
+  width: 190px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  transform: translate(215px, 50px);
+}
+
+.featureTitle {
+  color: #212353;
+  font-weight: 400;
+  margin: 0px 0px 10px 0px;
+  font-size: 20px;
+}
+
+.featureMessage {
+  color: #4c5d67;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.featureButton {
+  color: #212353;
+  border: none;
+  width: fit-content;
+  padding: 0px 32px 2px 0px;
+  cursor: pointer;
+  font-size: 13px;
+  background-color: transparent;
+  margin: auto 0px 0px 0px;
+  font-weight: 600;
+}
+
+.featureButton:hover {
+  transform: scale(1.1);
+}
+
+.shaftSmall {
+  position: absolute;
+  transform: translate(17.5px, 1px) scale(1.2) rotate(90deg);
+  color: #9c69e2;
+}
+
+.arrowHead1Small {
+  position: absolute;
+  color: #9c69e2;
+  transform: translate(22px, -13px) scale(1, 1.8) rotate(20deg);
+}
+
+.arrowHead2Small {
+  position: absolute;
+  color: #9c69e2;
+  transform: translate(17px, -7.5px) scale(1, 1.8) rotate(-20deg);
+}
+
+#image3 {
+  position: absolute;
+  width: 440px;
+  height: auto;
+}
+
+#image4 {
+  position: absolute;
+  width: 440px;
+  height: auto;
+}
+
+#image5 {
+  position: absolute;
+  width: 440px;
+  height: auto;
+}
+
+#image6 {
+  position: absolute;
+  width: 440px;
+  height: auto;
 }
