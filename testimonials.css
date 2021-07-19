@@ -9,6 +9,7 @@
   overflow: hidden;
   box-shadow: inset 0px 0px 1em #9c69e2;
   font-size: 10px;
+  min-width: 320px;
 }
 
 #testimonialsShadowLayer {
