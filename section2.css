@@ -1,0 +1,107 @@
+#secondBox {
+  background-color: #fce8f4;
+  width: 70%;
+  height: 56em;
+  border-radius: 5em;
+  margin: 18em 0px 10em 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10px;
+}
+
+#secondBoxLeft {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#image2 {
+  width: 47.7em;
+  height: 50.4em;
+  margin: 0px 0px 2.5em 0px;
+}
+
+#secondBoxRight {
+  width: 47.4em;
+  margin: 0px 0px 0px 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header2Title {
+  font-size: 3.8em;
+}
+
+#header2Message {
+  font-size: 1.8em;
+}
+
+@media (max-width: 1525px) {
+  #secondBox {
+    font-size: 9px;
+  }
+  #header2Title {
+    width: 12.5em;
+  }
+  #header2Message {
+    width: 26em;
+  }
+}
+
+@media (max-width: 1320px) {
+  #secondBox {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #secondBox {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+  #image2 {
+    font-size: 0.6em;
+  }
+  #header2Message {
+    margin: 0px 0px 2em 0px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #secondBox {
+    margin: 7em 0px 7em 15vw;
+  }
+}
+
+@media (max-width: 675px) {
+  #secondBox {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 525px) {
+  #header2Title {
+    width: 9.5em;
+  }
+  #header2Message {
+    width: 19em;
+  }
+  #secondBoxRight {
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 525px) {
+  #header2Title {
+    width: 8em;
+    line-height: 1.5em;
+  }
+  #header2Message {
+    width: 15.5em;
+  }
+}
