@@ -87,13 +87,6 @@ button:hover {
   transform: translate(12.14em, 0.39em) scaleX(1.2) rotate(20deg);
 }
 
-#mainTitle {
-  color: #212353;
-  margin: 150px 0em 0em 15vw;
-  font-size: 80px;
-  width: 705px;
-}
-
 .paragraphText {
   color: #4c5d67;
   font-size: 18px;
@@ -102,35 +95,17 @@ button:hover {
   font-family: avenir;
 }
 
-#mainSubTitle {
-  margin: 50px 0em 0em 15vw;
-  width: 375px;
-}
-
 .learnMoreButton {
   border: none;
-  border-radius: 45px;
+  border-radius: 4.5em;
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 15px;
-  width: 170px;
-  height: 60px;
+  font-size: 1.5em;
+  width: 11.33em;
+  height: 4em;
   cursor: pointer;
   font-family: avenir;
-}
-
-#LMButton1 {
-  margin: 50px 0em 0em 15vw;
-  background-color: #9c69e2;
-}
-
-#image1 {
-  width: 885px;
-  height: 461px;
-  position: absolute;
-  margin: 0px 0px 0px 38%;
-  transform: translateY(355px);
 }
 
 #secondBox {

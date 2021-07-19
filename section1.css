@@ -1,0 +1,87 @@
+#section1 {
+  font-size: 10px;
+}
+
+#LMButton1 {
+  margin: 50px 0em 0em 15vw;
+  background-color: #9c69e2;
+}
+
+#image1 {
+  font-size: inherit;
+  width: 88.5em;
+  height: 46.1em;
+  position: absolute;
+  margin: 0px 0px 0px 10%;
+  transform: translateY(-25.5em);
+}
+
+#mainSubTitle {
+  font-size: 1.8em;
+  margin: 2.77em 0em 0em 15vw;
+  width: 20.83em;
+}
+
+#mainTitle {
+  color: #212353;
+  margin: 1.875em 0em 0em 15vw;
+  font-size: 8em;
+  width: 8.81em;
+}
+
+@media (max-width: 1450px) {
+  #section1 {
+    font-size: 9px;
+  }
+  #image1 {
+    margin: 0px 0px 0px 9%;
+  }
+}
+
+@media (max-width: 1325px) {
+  #section1 {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1150px) {
+  #section1 {
+    font-size: 7px;
+    display: flex;
+    flex-direction: column;
+  }
+  #image1 {
+    margin: 36px auto;
+    position: relative;
+    transform: translateY(0em);
+  }
+}
+
+@media (max-width: 675px) {
+  #image1 {
+    font-size: 0.7em;
+  }
+  #section1 {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 550px) {
+  #mainTitle {
+    font-size: 7.2em;
+    width: 7.92em;
+  }
+  #section1 {
+    margin: 25px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 440px) {
+  #mainTitle {
+    font-size: 5.83em;
+    width: 6.4em;
+  }
+  #image1 {
+    font-size: 0.5em;
+  }
+}
