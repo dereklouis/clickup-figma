@@ -115,85 +115,6 @@ button:hover {
   letter-spacing: 0.5px;
 }
 
-#featuresHeader {
-  margin: 40px auto;
-}
-
-#featuresMessage {
-  margin: 0px auto 85px auto;
-  width: 584px;
-  text-align: center;
-}
-
-#featuresWrapper {
-  width: 70%;
-  /* max-width: 1300px; */
-  margin: 15px 0px 80px 15vw;
-  display: flex;
-  flex-direction: column;
-  font-size: 10px;
-}
-
-.featuresRow {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin: 0px 0px 4em 0px;
-  font-size: inherit;
-}
-
-.featureImageWrapper {
-  width: 43.4em;
-  height: 35.8em;
-  font-size: inherit;
-}
-
-.featureImageWrapperLeft {
-  margin: 0px 0px 0px 7em;
-}
-
-.featureImageColumn {
-  position: absolute;
-  width: 21.9em;
-  height: 27em;
-  display: flex;
-  flex-direction: column;
-  transform: translate(16.5em, 5em);
-  font-size: inherit;
-}
-
-.featureTitle {
-  color: #212353;
-  font-weight: 400;
-  margin: 0px 0px 0.5em 0px;
-  font-size: 2.2em;
-}
-
-.featureMessage {
-  color: #4c5d67;
-  font-size: 1.6em;
-  line-height: 1.7em;
-  font-weight: 100;
-  font-family: avenir;
-}
-
-.featureButton {
-  color: #212353;
-  border: none;
-  width: fit-content;
-  padding: 0px 3.2em 0.2em 0px;
-  cursor: pointer;
-  font-size: 1.4em;
-  background-color: transparent;
-  margin: auto 0px 0px 0px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-}
-
-.featureButton:hover {
-  transform: scale(1.1);
-}
-
 .shaftSmall {
   position: absolute;
   transform: translate(1.65em, 0.06em) scale(1.2) rotate(90deg);
@@ -210,52 +131,6 @@ button:hover {
   position: absolute;
   color: #9c69e2;
   transform: translate(1.7em, -0.65em) scale(1, 1.8) rotate(-20deg);
-}
-
-.rectangle {
-  position: absolute;
-  width: 44.2em;
-  height: 35.8em;
-}
-
-.rectangleImage {
-  position: absolute;
-  transform: translate(-10em, 7em);
-}
-
-#rectangle1A {
-  position: absolute;
-  transform: translate(18.5em, -3em);
-}
-
-#rectangle1B {
-  position: absolute;
-  transform: translate(27.5em, 5em);
-}
-
-#rectangle2A {
-  position: absolute;
-  transform: translate(18.5em, 14em);
-}
-
-#rectangle3Image {
-  position: absolute;
-  transform: translate(-11.5em, 12em);
-}
-
-#rectangle3A {
-  position: absolute;
-  transform: translate(34em, 3em);
-}
-
-#rectangle4A {
-  position: absolute;
-  transform: translate(0em, -1em);
-}
-
-#rectangle4B {
-  position: absolute;
-  transform: translate(34em, 28.5em);
 }
 
 #testimonialsWrapper {
