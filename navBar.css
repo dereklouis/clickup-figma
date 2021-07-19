@@ -1,0 +1,116 @@
+#navBar {
+  display: flex;
+  width: 70%;
+  height: 6.02em;
+  font-size: 10px;
+  margin: 45px 0em 0em 15vw;
+}
+
+#burgerWrapper {
+  width: 35px;
+  height: 25px;
+  display: none;
+  align-items: center;
+  position: absolute;
+  transform: translate(-10vw, -20px);
+  cursor: pointer;
+}
+
+#burger {
+  width: 35px;
+  height: 4px;
+  background-color: #9c69e2;
+  position: absolute;
+  border-radius: 5px;
+}
+
+#burger::before,
+#burger::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: #9c69e2;
+  border-radius: 5px;
+}
+
+#burger::before {
+  transform: translateY(-9px);
+}
+
+#burger::after {
+  transform: translateY(9px);
+}
+
+.link {
+  color: #4c5d67;
+  font-size: 1.6em;
+  font-weight: 300;
+  cursor: pointer;
+  margin: 0px;
+  font-family: avenir;
+}
+
+.link:hover {
+  transform: scale(1.02);
+  color: #212353;
+  margin: 0px 0px 2px 0px;
+  font-weight: 500;
+}
+
+#navLinkBox {
+  display: flex;
+  width: 33.5em;
+  height: 6.02em;
+  margin: 0px 0px 0px 11%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1050px) {
+  #navBar {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 960px) {
+  #navBar {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 860px) {
+  #navBar {
+    font-size: 8px;
+  }
+  #navLinkBox {
+    display: none;
+  }
+  #burgerWrapper {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  #reqDemoButton1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    transform: translateY(110px);
+  }
+  #navBar {
+    justify-content: center;
+  }
+  #burgerWrapper {
+    transform: translate(-38vw, -20px);
+  }
+}
+
+@media (max-width: 400px) {
+  #navBar {
+    font-size: 7px;
+  }
+}
