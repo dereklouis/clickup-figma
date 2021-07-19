@@ -1,6 +1,6 @@
 ## clickup-mini-project
 
-![ClickUp Mini Project Cover Photo](./images/cover.jpg)
+![ClickUp Mini Project Cover Photo](./images/cover.png)
 
 This is a mini project for ClickUp.
 
