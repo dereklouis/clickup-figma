@@ -4,7 +4,7 @@
 
 This is a mini project for [ClickUp](https://clickup.com/about).
 
-I have turned [this figma design](https://www.figma.com/file/qNLG2DvzowucTvhyYoM6KB/HTML-and-CSS-Engineer-Mini-Project) into a fully responsive web page down to 320px (iPhone 5), while only using vanilla HTML / CSS.
+I have turned [this figma design](https://www.figma.com/file/qNLG2DvzowucTvhyYoM6KB/HTML-and-CSS-Engineer-Mini-Project) into a fully responsive web page down to a 320px viewport width (iPhone 5), while only using vanilla HTML / CSS.
 
 ## Viewing the Web Page
 
