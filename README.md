@@ -1,10 +1,10 @@
-## clickup-mini-project
+## ClickUp Figma
 
 ![ClickUp Mini Project Cover Photo](./images/cover.png)
 
 This is a mini project for [ClickUp](https://clickup.com/about).
 
-I have turned [this figma design](https://www.figma.com/file/qNLG2DvzowucTvhyYoM6KB/HTML-and-CSS-Engineer-Mini-Project) into a fully responsive web page down to 320px (iPhone 5), using only vanilla HTML / CSS.
+I have turned [this figma design](https://www.figma.com/file/qNLG2DvzowucTvhyYoM6KB/HTML-and-CSS-Engineer-Mini-Project) into a fully responsive web page down to 320px (iPhone 5), while only using vanilla HTML / CSS.
 
 To view the page, clone the repo, and:
 
