@@ -114,21 +114,3 @@ button:hover {
   line-height: 50px;
   letter-spacing: 0.5px;
 }
-
-.shaftSmall {
-  position: absolute;
-  transform: translate(1.65em, 0.06em) scale(1.2) rotate(90deg);
-  color: #9c69e2;
-}
-
-.arrowHead1Small {
-  position: absolute;
-  color: #9c69e2;
-  transform: translate(2em, -1em) scale(1, 1.8) rotate(20deg);
-}
-
-.arrowHead2Small {
-  position: absolute;
-  color: #9c69e2;
-  transform: translate(1.7em, -0.65em) scale(1, 1.8) rotate(-20deg);
-}
